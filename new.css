@@ -1,0 +1,59 @@
+*{
+    margin:0 auto;
+    padding:0;
+    background-color: #9de81c;
+}
+    header{
+        background-color: rgb(169, 169, 169);
+        padding:40px 20px;
+    }
+    header h1{
+        color:white;
+        font-size: 80px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    nav{
+        background-color: rgb(232, 28, 28);
+        font-size: 50px;
+    }
+    nav a{
+        color:aliceblue;
+        text-decoration: none;
+        font-size: 40px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 20px 15px;
+        display: inline-block;
+    }
+    nav a:hover{
+        color:yellow;
+        background-color: blue;
+    }
+    section{
+        background-color: white;
+        font-size: 50px;
+    }
+    .content{
+        background-color: yellowgreen;
+        display:flex;
+    }
+    .left{
+        width:60%;
+        background-color: yellow;
+        padding:10px
+    }
+    .left img{
+        width:100%;
+        display:block;
+        height:300px;
+
+    }
+    .right{
+        width:60%;
+        background-color: blue;
+    }
+    footer{
+        background-color: blueviolet;
+        font-size: 40px;
+    }
+}
